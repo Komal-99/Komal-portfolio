@@ -1,0 +1,64 @@
+.contactus h1{
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Unbounded','sans-serif';  
+    font-weight: 400;
+    margin-top: 50px;
+    margin-left:40px ;
+}
+.contactus-body{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: grid;
+}
+.contactus-body h2{
+    margin-top: 50px;
+    font-size: 32px;
+}
+.contactus-body p{
+    margin-top: 20px;
+    width: 80vh;
+    margin-bottom: 50px;
+}
+.text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 70% ;
+    background-color: rgb(242, 237, 237) ;
+    margin-bottom: 30px;
+}
+.text1{
+    border-radius: 20px;
+    border-color: black;
+    padding: 20px;
+    width: 60%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: rgb(228, 220, 220);
+}
+.text2{
+    border-radius: 20px;
+    border-color: black;
+    padding: 20px;
+    margin-top: 30px;
+    width:60%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242, 237, 237);
+
+}
+.text button{
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: brown;
+    font-size: 18px;
+    margin-top: 30px;
+    color: beige;
+    margin-bottom: 20px;
+
+}

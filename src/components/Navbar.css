@@ -1,0 +1,39 @@
+.navbar{
+    background-color: rgb(42, 39, 39);
+    width: 100%;
+    margin: none;
+    display: flex;
+    overflow: hidden;
+}
+/* .navigation{
+    margin: auto;
+    width: 70vw;
+
+} */
+.navbar h3{
+    color: rgb(237, 237, 179);
+    padding: 10px 20px ;
+    font-size: 22px;
+}
+.navbar-menu{
+    padding-right: 2%;
+    flex: 1.236;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+    list-style: none;
+    
+    
+}
+.navbar-menu li{
+    cursor: pointer;
+    
+}
+.navbar-menu a{
+    text-decoration: none;
+    color: rgb(237, 237, 179);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}

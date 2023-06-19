@@ -1,0 +1,143 @@
+.aboutme{
+    gap: 10px;
+    
+}
+.aboutme> h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Unbounded','sans-serif';  
+    font-weight: 400;
+    margin-top: 40px;
+}
+.aboutme> h4{
+    color: rgb(255, 77, 0);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+   
+}
+.aboutme-section{
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    gap:40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: grid;
+    margin: 10px 40px;
+   
+}
+.aboutme-section-row1{
+    /* height:100%; */
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: grid;
+    gap: 40px;
+    
+}
+.aboutme-section-row1-first {
+    background-color:rgb(228, 228, 240);
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;  
+    
+    box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
+    
+}
+.aboutme-section-row1-first-text{
+    text-align: left;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+
+}
+.aboutme-section-row1-first-text> h4{
+    color: rgb(255, 77, 0);
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.aboutme-section-row1-first-text p{
+    padding-bottom: 10px;
+}
+.aboutme-section-row1-second {
+    background-color:rgb(228, 228, 240);
+    border-radius: 10px;
+    padding-top: 20px;
+    grid-column: span 2 / span 2;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: grid;
+    box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
+    /* height:100%; */
+    gap: 20px;
+   
+}
+.aboutme-section-row1-second div{
+    text-align: left;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+}
+.aboutme-section-row1-second h4 {
+    color: rgb(255, 77, 0);
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.aboutme-section-row1-second p{
+    padding-bottom: 10px;
+}
+.aboutme-section-row2{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: grid;
+    box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
+    border-radius: 10px;
+    background-color:rgb(228, 228, 240);
+    text-align: left;
+    /* height:100%; */
+    padding-top: 20px;
+}
+.aboutme-section-row2 h4{
+    color: rgb(255, 77, 0);
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.aboutme-section-row2 div{
+    text-align: left;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    
+}
+.aboutme-section-row2-text{
+    grid-column: span 3 / span 3;
+    display: flex;
+}
+.aboutme-section-row2-text p{
+    padding-bottom: 10px;
+}
+.aboutme-section-row3{
+    border-radius: 10px;
+    background-color:rgb(228, 228, 240);
+    text-align: left;
+    box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
+    padding-top: 20px;
+}
+.aboutme-section-row3 div{
+    text-align: left;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+}
+.aboutme-section-row3 h4{
+    color: rgb(255, 77, 0);
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.aboutme-section-row3 p{
+    padding-bottom: 10px;
+}
