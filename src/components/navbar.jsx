@@ -20,6 +20,9 @@ function Navbar() {
             <li>
                 <a href='Contact'>Contact</a>
             </li>
+            <li>
+                <a href='Gallery'>My Gallery</a>
+            </li>
         </ul>
     </div>
   )
