@@ -1,5 +1,7 @@
 import React from "react";
 import "./aboutme.css";
+import {IoPerson} from "react-icons/io5";
+
 export default function AboutMe() {
   return (
     <div className="aboutme">
@@ -10,7 +12,7 @@ export default function AboutMe() {
         <div className="aboutme-section-row1">
           <div className="aboutme-section-row1-first">
             <div className="aboutme-section-row1-first-text">
-              <h4>Komal Gupta</h4>
+              <h4 id='firsticon'>Komal Gupta <IoPerson/></h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
                 perferendis consectetur nam similique a? Similique voluptatibus

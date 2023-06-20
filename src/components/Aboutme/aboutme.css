@@ -16,8 +16,9 @@
     text-align: center;
     margin-bottom: 40px;
     letter-spacing: 5px;
-   
+    
 }
+
 .aboutme-section{
     grid-template-rows: repeat(3, minmax(0, 1fr));
     gap:40px;
@@ -55,7 +56,9 @@
     padding-bottom: 20px;
     font-size: 30px;
     font-weight: 400;
+
 }
+
 .aboutme-section-row1-first-text p{
     padding-bottom: 10px;
 }
@@ -141,3 +144,4 @@
 .aboutme-section-row3 p{
     padding-bottom: 10px;
 }
+
