@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <div className="">
+    <div className="navbar" id="nav">
+  
         <div className="navbar-container">
           <Link to="/">
             <h3>Komal.</h3>
@@ -31,8 +31,9 @@ function Navbar() {
           </ul>
         </div>
       </div>
-    </div>
+    
   );
+  
 }
 
 export default Navbar;

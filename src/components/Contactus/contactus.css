@@ -62,3 +62,77 @@
     margin-bottom: 20px;
 
 }
+@media only screen and (min-width:300px) and (max-width:500px) {
+    .contactus h1{
+        text-align: left;
+        font-size: 25px;
+        font-family: 'Unbounded','sans-serif';  
+        font-weight: 400;
+        margin-top: 30px;
+        margin-left:40px ;
+    }
+    .contactus-body{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        /* margin: auto; */
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        display: block;
+    }
+    .contactus-body-inner{
+        width: auto;
+        height: auto;
+    }
+    .contactus-body h2{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .contactus-body p{
+        margin-top: 10px;
+        width: 90%;
+        margin-bottom: 20px;
+        font-size: 12px;
+        text-align: justify;
+    }
+    .text{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        width: 90% ;
+        background-color: rgb(242, 237, 237) ;
+        margin-bottom: 30px;
+    }
+    .text1{
+        border-radius: 20px;
+        border-color: black;
+        padding: 20px;
+        width: 60%;
+        height: 20px;
+        margin-top: 20px;
+        background-color: rgb(228, 220, 220);
+    }
+    .text2{
+        border-radius: 20px;
+        border-color: black;
+        padding: 20px;
+        margin-top: 15px;
+        width:60%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(242, 237, 237);
+    
+    }
+    .text button{
+        border-radius: 30px;
+        padding: 10px 15px;
+        background-color: brown;
+        font-size: 10px;
+        margin-top: 15px;
+        color: beige;
+        margin-bottom: 20px;
+    
+    }  
+}

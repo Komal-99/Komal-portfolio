@@ -31,7 +31,7 @@ export default function AboutMe() {
                 perferendis veritatis vel delectus velit eius harum ullam.
               </p>
             </div>
-            <div>
+            <div id='photo'>
               <h1>Photo</h1>
             </div>
           </div>

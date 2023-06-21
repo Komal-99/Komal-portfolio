@@ -6,7 +6,7 @@ export default function Contactus() {
       <h1>Contact us</h1>
     
     <div className="contactus-body">
-      <div>
+      <div className="contactus-body-inner">
         <h2>Let's Connect!</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem adipisci eveniet itaque deleniti perferendis praesentium molestias, odit veritatis culpa alias voluptate vitae fugit blanditiis beatae dolorum. Ea accusamus ut laboriosam!
