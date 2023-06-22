@@ -23,7 +23,7 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="aboutme-section-row1-second">
-            <div>
+            <div className="left">
               <h4>Participatory</h4>
               <p>
                 Apart from my technical pursuits, I am actively engaged in
@@ -37,29 +37,36 @@ export default function AboutMe() {
                 driving innovation.
               </p>
             </div>
-            {/* <div id="photo"></div> */}
+            <div id="photo"></div>
           </div>
         </div>
-        <div className="aboutme-section-row2">
-          <div className="aboutme-section-row2-text">
+        <div className="aboutme-row-2">
+          <div className="aboutme-section-row3">
+              <h4>Summary</h4>
+              <p>
+                In summary, I am a passionate and hardworking individual with a
+                strong drive to make a difference through technology. My
+                ultimate goal is to design scalable applications that simplify
+                everyday tasks and contribute to a better world. Beyond coding,
+                I actively engage in sharing knowledge and collaborating with
+                others through blogging and organizing meetups. Currently, I am
+                focused on deep learning and NLP, constantly expanding my
+                expertise in these domains. I am excited about the endless
+                possibilities that lie ahead and look forward to the challenges
+                and opportunities that come my way in the exciting world of
+                AI and technology.
+              </p>
+          </div>
+          <div className="aboutme-section-row2">
             <h4>Current focus</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Architecto, cum, quas aliquam eum qui modi necessitatibus eius eos
-              saepe sint laborum, reiciendis placeat! Harum sunt molestiae
-              debitis aliquid dolore impedit?
-            </p>
-          </div>
-          <div>{/* <p>photo</p> */}</div>
-        </div>
-        <div className="aboutme-section-row3">
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              voluptate est delectus labore facere autem consequuntur quas quae,
-              quidem impedit, minima illo? Consequuntur, ad culpa. Dolore
-              numquam ut sed praesentium?
+              In my journey through the world of technology, I am currently
+              focusing on deep learning and natural language processing (NLP)
+              concepts. These areas intrigue me due to their potential to
+              revolutionize various industries and enhance human-computer
+              interaction. I am constantly seeking to deepen my understanding
+              and expertise in these domains, exploring cutting-edge
+              technologies and tools to create innovative solutions.
             </p>
           </div>
         </div>

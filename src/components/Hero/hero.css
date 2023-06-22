@@ -24,14 +24,15 @@
     width: 60%;
     font-size: 16px;
 }
+
 .hero-right img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50px;
     grid-column: span 1 / span 1;
-   
 }
+
 .hero-right{
     height: 60vh;
     display: flex;
@@ -39,6 +40,7 @@
     align-items: center;
     margin: auto;
 }
+
 .hero-button {
    display: flex;
     gap: 20px;
@@ -80,84 +82,27 @@ h1>span {
     align-items: center;
     gap:4px;
 }
-@media only screen and (min-width:300px) and (max-width:500px) {
+@media only screen and (min-width:300px) and (max-width:700px) {
     .hero{
-        height: 60vh;
-        display:grid;
-        padding:0 4vw ;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        align-items: center;
+        height: auto;
     }
-    
-    .hero-left{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;  
-        align-items: flex-start;
-        grid-column: span 2 / span 2; 
-    }
-    
     .hero-left h1{
-        font-family: 'Unbounded','sans-serif';
         font-size:20px;
     }
-    
     .hero-left p{
-        list-style: none;
         width: 90%;
         font-size: 12px;
     }
     h1>span {
-        font-size: 25px;
-        font-family: 'Unbounded','sans-serif';
+        font-size: 23px;
     }
     .hero-right img {
-        width: 100%;
-        height: 50%;
-        object-fit: cover;
+        width: 120%;
+        height: auto;
         border-radius: 20px;
-        grid-column: span 1 / span 1;
-       
-    }
-    .hero-right{
-        height: 60vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-    }
-    .hero-button {
-       display: flex;
-        gap: 10px;
-      
-    }
-    .hero-button button{
-        border-radius: 15px;
-        padding: 10px 30px;
-        font-size: 10px;
-        font-weight: 400;
     }
     .hero-button a{
-        border-radius: 20px;
         padding: 5px 10px;
         font-size: 10px;
-        font-weight: 400;
-        text-decoration: none;
-    }
-    #default-button{
-        border:1px solid black;
-        color:black;
-        background-color: #ff7c09;
-        display: flex;
-        align-items: center;
-        gap:2px;
-    }
-    #outline-button{
-        border:1px solid black;
-        color:black;
-        background-color: transparent;
-        display: flex;
-        align-items: center;
-        gap:4px;
     }
 }

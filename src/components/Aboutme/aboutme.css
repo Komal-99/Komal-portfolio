@@ -1,300 +1,238 @@
-.aboutme{
-    gap: 10px;
-    
+.aboutme {
+  gap: 10px;
 }
-.aboutme> h1{
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Unbounded','sans-serif';  
-    font-weight: 400;
-    margin-top: 40px;
+.aboutme > h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Unbounded", "sans-serif";
+  font-weight: 400;
+  margin-top: 40px;
 }
-.aboutme> h4{
-    color: rgb(255, 77, 0);
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 40px;
-    letter-spacing: 5px;
-    
+.aboutme > h4 {
+  font-family: "Unbounded", sans-serif;
+  color: rgb(255, 77, 0);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 5px;
 }
 
-.aboutme-section{
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-    gap:40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    display: grid;
-    
-   
+.aboutme-section {
+  gap: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: grid;
 }
-.aboutme-section-row1{
-    height:350px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    display: grid;
-    gap: 40px;
-    
+
+.aboutme-section-row1 {
+  height: 350px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  display: grid;
+  gap: 40px;
 }
+
 .aboutme-section-row1-first {
-    background-color:#ff2d59;
-    display: flex;
-    align-items: flex-end;
-    border-radius: 10px;  
-    
-    /* box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212); */
-    
+  grid-column: span 2 / span 2;
+  background-color: #ff2d59;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 10px;
 }
-.aboutme-section-row1-first-text{
-    text-align: justify;
-    display: flex;
-    padding: 10px 30px;
-    flex-direction: column;
+.aboutme-section-row1-first-text {
+  text-align: justify;
+  display: flex;
+  padding: 10px 30px;
+  flex-direction: column;
+}
 
+.aboutme-section-row1-first-text > h4 {
+  font-family: "Unbounded", sans-serif;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: 400;
 }
-.aboutme-section-row1-first-text> h4{
+
+.aboutme-section-row1-first-text p {
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+.aboutme-section-row1-second {
+  background-color: #00a6e0;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  grid-column: span 3 / span 3;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: grid;
+  gap: 20px;
+}
+
+.aboutme-section-row1-second .left {
+  text-align: justify;
+  grid-column: span 2 / span 2;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 30px;
+  flex-direction: column;
+}
+.aboutme-section-row1-second h4 {
+  font-family: "Unbounded", sans-serif;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.aboutme-section-row1-second p {
+  padding-bottom: 10px;
+  color: white;
+}
+.aboutme-section-row2 {
+  display: grid;
+  border-radius: 10px;
+  background-color: #fb6b46;
+  text-align: justify;
+  padding-top: 20px;
+}
+.aboutme-section-row2 h4 {
+  font-family: "Unbounded", sans-serif;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.aboutme-section-row2 p {
     color: white;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.aboutme-row-2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+.aboutme-section-row2 {
+  text-align: justify;
+  grid-column: span 3 / span 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 30px;
+  padding: 10px 30px;
+}
+.aboutme-section-row2-text p {
+  color: rgb(223, 232, 219);
+}
+.aboutme-section-row3 {
+  border-radius: 10px;
+  background-color: rgb(227, 227, 227);
+  text-align: justify;
+  grid-column: span 4 / span 4;
+  padding-top: 20px;
+  padding: 10px 30px;
+  height: 300px;
+}
+.aboutme-section-row3 > h4{
+    font-family: "Unbounded", sans-serif;
+    color: black;
     padding-bottom: 10px;
     font-size: 40px;
     font-weight: 400;
-
 }
-.aboutme-section-row1-first-text p{
+.aboutme-section-row3>p{
+    color: black;
     padding-bottom: 10px;
-    font-size: 15px;
-    color: aliceblue;
-}
-.aboutme-section-row1-second {
-    background-color:#00a6e0;
-    border-radius: 10px;
-    padding-top: 20px;
-    grid-column: span 2 / span 2;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    display: grid;
-    /* box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212); */
-    gap: 20px;
-   
-}
-.aboutme-section-row1-second div{
-    text-align: justify;
-    grid-column: span 2 / span 2;
-    display: flex;
-    height: 100%;
-    justify-content: flex-end;
-    padding: 10px 30px;
-    flex-direction: column;
-}
-.aboutme-section-row1-second h4 {
-    color: white;
-    padding-bottom: 10px;
-    font-size: 18px;
-    font-size: 30px;
+    font-size: 14px;
     font-weight: 400;
 }
-.aboutme-section-row1-second p{
-    padding-bottom: 10px;
-    color: aliceblue;
+.aboutme-section-row3 div {
   
+  padding: 10px 30px;
+  flex-direction: column;
 }
-.aboutme-section-row2{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    display: grid;
-    /* box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212); */
-    border-radius: 10px;
-    background-color:#fb6b46;
-    text-align: justify;
-    /* height:100%; */
-    padding-top: 20px;
-}
-.aboutme-section-row2 h4{
-    color: white;
-    padding-bottom: 10px;
-    font-size: 18px;
-    font-size: 30px;
-    font-weight: 400;
-}
-.aboutme-section-row2 div{
-    text-align: left;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 30px;
-    padding: 10px 30px;
-    flex-direction: column;
-    
-}
-.aboutme-section-row2-text{
-    grid-column: span 3 / span 3;
-    display: flex;
-}
-.aboutme-section-row2-text p{
-    padding-bottom: 10px;
-    color:aliceblue
-}
-.aboutme-section-row3{
-    border-radius: 10px;
-    background-color:rgb(40, 38, 38);
-    text-align: left;
-    /* box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212); */
-    padding-top: 20px;
-}
-.aboutme-section-row3 div{
-    text-align: left;
-    display: flex;
-    padding: 10px 20px;
-    flex-direction: column;
-}
-.aboutme-section-row3 h4{
-    color: rgb(255, 77, 0);
-    padding-bottom: 20px;
-    font-size: 18px;
-    font-size: 30px;
-    font-weight: 400;
-}
-.aboutme-section-row3 p{
-    padding-bottom: 10px;
-}
-@media only screen and (min-width:300px) and (max-width:500px) {
-    .aboutme{
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+    .aboutme {
         gap: 10px;
-    }
-    .aboutme> h1{
-        text-align: center;
+      }
+    .aboutme > h1 {
         font-size: 25px;
-        font-family: 'Unbounded','sans-serif';  
-        font-weight: 400;
-        margin-top: 0px;
-    }
-    .aboutme> h4{
-        color: rgb(255, 77, 0);
+      }
+    .aboutme > h4 {
         font-size: 15px;
-        font-weight: 400;
-        text-align: center;
-        margin-bottom: 10px;
-        letter-spacing: 5px;
-        
-    }
-    .aboutme-section{
-        grid-template-rows: repeat(3, minmax(0, 1fr));
+        margin-bottom: 20px;
+      }
+    .aboutme-section {
+        gap: 30px;
         padding-bottom: 20px;
         padding-top: 20px;
-        display: flex;
-        flex-direction: column;
-        margin: 10px 40px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        display: grid;
+      }
+      
+    .aboutme-section-row1 {
+        height: auto;
+        gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        display: grid;
+      }
+    .aboutme-section-row1-first {
+        align-items:center;
+      }
+    .aboutme-section-row1-first-text > h4 {
+        font-size: 20px;
+      }
+    .aboutme-section-row1-first-text p {
+        font-size: 12px;
+      }
+    .aboutme-section-row1-second {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        display:grid;
+      }
+    .aboutme-section-row1-second h4 {
+        font-size: 20px;
+      }
+    .aboutme-section-row1-second p {
+        font-size: 12px;
+      }
+    .aboutme-row-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        display: grid;
+        }
+    .aboutme-section-row3 {
+        text-align: justify;
+        padding: 10px 30px;
+        height: auto;
+        }
+    .aboutme-section-row3 > h4{
+        font-family: "Unbounded", sans-serif;
+        color: black;
+        padding-bottom: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        }
+    .aboutme-section-row3>p{
+        font-size: 12px; 
+    }
+    .aboutme-section-row2 {
+        grid-template-columns: 1fr;
+    }
+    .aboutme-section-row2 h4 {
+        font-size: 20px;
+    }
+    .aboutme-section-row2 p {
+        font-size: 12px;
+    }
+    .aboutme-section-row2-text p {
+        color: rgb(223, 232, 219);
        
     }
-    .aboutme-section-row1{
-        height:100%;
-        display: flex;
-        flex-direction: column;
-        gap: 30px; 
-}
-    .aboutme-section-row1-first {
-        background-color:rgb(40, 38, 38);
-        display: flex;
-        align-items: flex-end;
-        border-radius: 10px;  
-        box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
-        
-    }
-    .aboutme-section-row1-first-text{
-        text-align: justify;
-        display: flex;
-        padding: 10px 20px;
-        flex-direction: column;
+    } 
     
-    }
-    .aboutme-section-row1-first-text> h4{
-        color: rgb(255, 77, 0);
-        padding-bottom: 10px;
-        font-size: 20px;
-        font-weight: 400;
     
-    }
-    .aboutme-section-row1-first-text p{
-        padding-bottom: 10px;
-        font-size: 12px;
-    }
-    .aboutme-section-row1-second {
-        background-color:rgb(40, 38, 38);
-        border-radius: 10px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        display: grid;
-        grid-row: span 2 / span 2;
-        padding-top: 20px;
-        height: 70vh;
-        box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
-        gap: 20px;
-    }
-    .aboutme-section-row1-second div{
-        text-align: justify;
-        display: flex;
-        padding: 10px 20px;
-        flex-direction: column;
-    }
-    #photo{
-        align-items: center;
-        justify-content: center;
-    }
-    .aboutme-section-row1-second h4 {
-        color: rgb(255, 77, 0);
-        padding-bottom: 20px;
-        font-size: 20px;
-        font-weight: 400;
-    }
-    .aboutme-section-row1-second p{
-        font-size: 12px;
-        padding-bottom: 10px;
-    }
-    .aboutme-section-row2{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        display: grid;
-        box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
-        border-radius: 10px;
-        background-color:rgb(40, 38, 38);
-        text-align: left;
-        height: 70vh;
-        padding-top: 20px;
-    }
-    .aboutme-section-row2 h4{
-        color: rgb(255, 77, 0);
-        padding-bottom: 20px;
-        font-size: 20px;
-        font-weight: 400;
-    }
-    .aboutme-section-row2 div{
-        text-align: left;
-        display: flex;
-        padding: 10px 20px;
-        flex-direction: column;    
-    }
-    .aboutme-section-row2-text p{
-        padding-bottom: 10px;
-        font-size: 12px;
-    }
-    .aboutme-section-row3{
-        border-radius: 10px;
-        background-color:rgb(40, 38, 38);
-        text-align: left;
-        height: 80vh;
-        box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
-        padding-top: 20px;
-    }
-    .aboutme-section-row3 div{
-        text-align: left;
-        display: flex;
-        padding: 10px 20px;
-        flex-direction: column;
-    }
-    .aboutme-section-row3 h4{
-        color: rgb(255, 77, 0);
-        padding-bottom: 20px;
-        font-size: 18px;
-        font-size: 20px;
-        font-weight: 400;
-    }
-    .aboutme-section-row3 p{
-        padding-bottom: 10px;
-        font-size: 12px;
-    }
-}
