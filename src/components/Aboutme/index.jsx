@@ -1,6 +1,4 @@
-import React from "react";
 import "./aboutme.css";
-import {IoPerson} from "react-icons/io5";
 
 export default function AboutMe() {
   return (
@@ -12,28 +10,34 @@ export default function AboutMe() {
         <div className="aboutme-section-row1">
           <div className="aboutme-section-row1-first">
             <div className="aboutme-section-row1-first-text">
-              <h4 id='firsticon'>Komal Gupta <IoPerson/></h4>
+              <h4 id="firsticon">Komal Gupta</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                perferendis consectetur nam similique a? Similique voluptatibus
-                repudiandae iure officiis odit, ducimus id harum, sit ut debitis
-                facere. Nostrum, dolorem rerum.
+                Hello there! My name is Komal Gupta, and I am a passionate and
+                dedicated tech enthusiast with a deep interest in the field of
+                artificial intelligence (AI). The continuous advancements and
+                potential of AI have always fascinated me, inspiring me to
+                explore this rapidly evolving field. My ultimate goal is to
+                create scalable applications that simplify everyday tasks and
+                make a positive impact on a global scale.
               </p>
             </div>
           </div>
           <div className="aboutme-section-row1-second">
             <div>
-              <h4>Collaborative Approach</h4>
+              <h4>Participatory</h4>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolores quae dolore architecto accusantium, eius quibusdam?
-                Possimus culpa blanditiis iste quam explicabo, sapiente
-                perferendis veritatis vel delectus velit eius harum ullam.
+                Apart from my technical pursuits, I am actively engaged in
+                sharing knowledge and giving back to the community. I thoroughly
+                enjoy blogging and organizing meetups to connect with fellow
+                tech enthusiasts, exchange insights, and inspire others to
+                pursue their own paths in technology. Through these platforms, I
+                have had the privilege of sharing my experiences and
+                contributing to the growth of the tech community. I firmly
+                believe in the power of collaboration and recognize its role in
+                driving innovation.
               </p>
             </div>
-            <div id='photo'>
-              <h1>Photo</h1>
-            </div>
+            {/* <div id="photo"></div> */}
           </div>
         </div>
         <div className="aboutme-section-row2">
@@ -46,23 +50,20 @@ export default function AboutMe() {
               debitis aliquid dolore impedit?
             </p>
           </div>
-          <div>
-            <p>photo</p>
-          </div>
+          <div>{/* <p>photo</p> */}</div>
         </div>
         <div className="aboutme-section-row3">
           <div>
-
-          <h4>Summary</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            voluptate est delectus labore facere autem consequuntur quas quae,
-            quidem impedit, minima illo? Consequuntur, ad culpa. Dolore numquam
-            ut sed praesentium?
-          </p>
+            <h4>Summary</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              voluptate est delectus labore facere autem consequuntur quas quae,
+              quidem impedit, minima illo? Consequuntur, ad culpa. Dolore
+              numquam ut sed praesentium?
+            </p>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

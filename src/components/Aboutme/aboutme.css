@@ -25,82 +25,89 @@
     padding-bottom: 20px;
     padding-top: 20px;
     display: grid;
-    margin: 10px 40px;
+    
    
 }
 .aboutme-section-row1{
-    /* height:100%; */
+    height:350px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     display: grid;
     gap: 40px;
     
 }
 .aboutme-section-row1-first {
-    background-color:rgb(228, 228, 240);
+    background-color:#ff2d59;
     display: flex;
     align-items: flex-end;
     border-radius: 10px;  
     
-    box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
+    /* box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212); */
     
 }
 .aboutme-section-row1-first-text{
-    text-align: left;
+    text-align: justify;
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 30px;
     flex-direction: column;
 
 }
 .aboutme-section-row1-first-text> h4{
-    color: rgb(255, 77, 0);
-    padding-bottom: 20px;
-    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 40px;
     font-weight: 400;
 
 }
 .aboutme-section-row1-first-text p{
     padding-bottom: 10px;
+    font-size: 15px;
+    color: aliceblue;
 }
 .aboutme-section-row1-second {
-    background-color:rgb(228, 228, 240);
+    background-color:#00a6e0;
     border-radius: 10px;
     padding-top: 20px;
     grid-column: span 2 / span 2;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     display: grid;
-    box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
+    /* box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212); */
     gap: 20px;
    
 }
 .aboutme-section-row1-second div{
-    text-align: left;
+    text-align: justify;
+    grid-column: span 2 / span 2;
     display: flex;
-    padding: 10px 20px;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 10px 30px;
     flex-direction: column;
 }
 .aboutme-section-row1-second h4 {
-    color: rgb(255, 77, 0);
-    padding-bottom: 20px;
+    color: white;
+    padding-bottom: 10px;
     font-size: 18px;
     font-size: 30px;
     font-weight: 400;
 }
 .aboutme-section-row1-second p{
     padding-bottom: 10px;
+    color: aliceblue;
+  
 }
 .aboutme-section-row2{
     grid-template-columns: repeat(4, minmax(0, 1fr));
     display: grid;
-    box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
+    /* box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212); */
     border-radius: 10px;
-    background-color:rgb(228, 228, 240);
-    text-align: left;
+    background-color:#fb6b46;
+    text-align: justify;
     /* height:100%; */
     padding-top: 20px;
 }
 .aboutme-section-row2 h4{
-    color: rgb(255, 77, 0);
-    padding-bottom: 20px;
+    color: white;
+    padding-bottom: 10px;
     font-size: 18px;
     font-size: 30px;
     font-weight: 400;
@@ -108,7 +115,9 @@
 .aboutme-section-row2 div{
     text-align: left;
     display: flex;
-    padding: 10px 20px;
+    justify-content: flex-end;
+    font-size: 30px;
+    padding: 10px 30px;
     flex-direction: column;
     
 }
@@ -118,12 +127,13 @@
 }
 .aboutme-section-row2-text p{
     padding-bottom: 10px;
+    color:aliceblue
 }
 .aboutme-section-row3{
     border-radius: 10px;
-    background-color:rgb(228, 228, 240);
+    background-color:rgb(40, 38, 38);
     text-align: left;
-    box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
+    /* box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212); */
     padding-top: 20px;
 }
 .aboutme-section-row3 div{
@@ -178,7 +188,7 @@
         gap: 30px; 
 }
     .aboutme-section-row1-first {
-        background-color:rgb(228, 228, 240);
+        background-color:rgb(40, 38, 38);
         display: flex;
         align-items: flex-end;
         border-radius: 10px;  
@@ -204,7 +214,7 @@
         font-size: 12px;
     }
     .aboutme-section-row1-second {
-        background-color:rgb(228, 228, 240);
+        background-color:rgb(40, 38, 38);
         border-radius: 10px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, minmax(0, 1fr));
@@ -241,7 +251,7 @@
         display: grid;
         box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
         border-radius: 10px;
-        background-color:rgb(228, 228, 240);
+        background-color:rgb(40, 38, 38);
         text-align: left;
         height: 70vh;
         padding-top: 20px;
@@ -264,7 +274,7 @@
     }
     .aboutme-section-row3{
         border-radius: 10px;
-        background-color:rgb(228, 228, 240);
+        background-color:rgb(40, 38, 38);
         text-align: left;
         height: 80vh;
         box-shadow: 0.5px 0.5px 20px 8px rgb(205, 205, 212);
