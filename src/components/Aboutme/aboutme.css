@@ -1,238 +1,94 @@
 .aboutme {
-  gap: 10px;
+  font-size: 16px;
+  margin-top: 20px;
 }
-.aboutme > h1 {
+
+.heading {
   text-align: center;
-  font-size: 50px;
-  font-family: "Unbounded", "sans-serif";
-  font-weight: 400;
-  margin-top: 40px;
 }
-.aboutme > h4 {
-  font-family: "Unbounded", sans-serif;
-  color: rgb(255, 77, 0);
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 40px;
-  letter-spacing: 5px;
-}
-
-.aboutme-section {
-  gap: 30px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  display: grid;
-}
-
-.aboutme-section-row1 {
-  height: 350px;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  display: grid;
-  gap: 40px;
-}
-
-.aboutme-section-row1-first {
-  grid-column: span 2 / span 2;
-  background-color: #ff2d59;
+.flex {
   display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-end{
+  justify-content: flex-end;
+}
+.align-end{
   align-items: flex-end;
-  border-radius: 10px;
 }
-.aboutme-section-row1-first-text {
-  text-align: justify;
-  display: flex;
-  padding: 10px 30px;
-  flex-direction: column;
+.items-center{
+  align-items: center;
 }
-
-.aboutme-section-row1-first-text > h4 {
-  font-family: "Unbounded", sans-serif;
-  color: white;
-  padding-bottom: 10px;
-  font-size: 40px;
+.aboutme > div > h1 {
+  font-size: 3rem;
   font-weight: 400;
+  font-family: "Unbounded", sans-serif;
 }
-
-.aboutme-section-row1-first-text p {
-  padding-bottom: 10px;
-  font-size: 15px;
-  color: aliceblue;
+.aboutme > div > h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #ff7c09;
 }
-
-.aboutme-section-row1-second {
-  background-color: #00a6e0;
-  border-radius: 10px;
-  padding-bottom: 30px;
-  grid-column: span 3 / span 3;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.aboutme > .row__1 {
   display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  margin-top: 20px;
 }
-
-.aboutme-section-row1-second .left {
-  text-align: justify;
+.border__10 {
+  border-radius: 20px;
+}
+.row__1 {
+  min-height: 250px;
+}
+.row__1 > .left {
+  background-color: #ff2d59;
+  grid-column: span 3 / span 3;
+  padding: 10px 30px;
+}
+.row__1 h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.row__1 > .right {
   grid-column: span 2 / span 2;
-  display: flex;
-  justify-content: flex-end;
+  background-color: #00a6e0;
   padding: 10px 30px;
-  flex-direction: column;
 }
-.aboutme-section-row1-second h4 {
-  font-family: "Unbounded", sans-serif;
-  color: white;
-  padding-bottom: 10px;
-  font-size: 40px;
-  font-weight: 400;
-}
-.aboutme-section-row1-second p {
-  padding-bottom: 10px;
-  color: white;
-}
-.aboutme-section-row2 {
+.aboutme > .row__2 {
   display: grid;
-  border-radius: 10px;
-  background-color: #fb6b46;
-  text-align: justify;
-  padding-top: 20px;
-}
-.aboutme-section-row2 h4 {
-  font-family: "Unbounded", sans-serif;
-  color: white;
-  padding-bottom: 10px;
-  font-size: 40px;
-  font-weight: 400;
-}
-.aboutme-section-row2 p {
-    color: white;
-    padding-bottom: 10px;
-    font-size: 14px;
-    font-weight: 400;
-}
-.aboutme-row-2 {
-  display: grid;
+  grid-template-columns: repeat(7, 1fr);
   gap: 20px;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  margin-top: 20px;
 }
-.aboutme-section-row2 {
+.row__2 {
+  min-height: 250px;
   text-align: justify;
+}
+.row2__left {
   grid-column: span 3 / span 3;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  font-size: 30px;
-  padding: 10px 30px;
+  background-color: #fb6b46;
+  padding: 30px;
 }
-.aboutme-section-row2-text p {
-  color: rgb(223, 232, 219);
+.row__2 h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+  color: #fff;
 }
-.aboutme-section-row3 {
-  border-radius: 10px;
-  background-color: rgb(227, 227, 227);
-  text-align: justify;
+.row__2 p {
+  font-size: 1rem;
+  color: #fff;
+}
+.row2__right {
   grid-column: span 4 / span 4;
-  padding-top: 20px;
-  padding: 10px 30px;
-  height: 300px;
+  background-color: aqua;
+  padding: 30px;
 }
-.aboutme-section-row3 > h4{
-    font-family: "Unbounded", sans-serif;
-    color: black;
-    padding-bottom: 10px;
-    font-size: 40px;
-    font-weight: 400;
-}
-.aboutme-section-row3>p{
-    color: black;
-    padding-bottom: 10px;
-    font-size: 14px;
-    font-weight: 400;
-}
-.aboutme-section-row3 div {
-  
-  padding: 10px 30px;
-  flex-direction: column;
-}
-@media only screen and (min-width: 300px) and (max-width: 800px) {
-    .aboutme {
-        gap: 10px;
-      }
-    .aboutme > h1 {
-        font-size: 25px;
-      }
-    .aboutme > h4 {
-        font-size: 15px;
-        margin-bottom: 20px;
-      }
-    .aboutme-section {
-        gap: 30px;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        display: grid;
-      }
-      
-    .aboutme-section-row1 {
-        height: auto;
-        gap: 20px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        display: grid;
-      }
-    .aboutme-section-row1-first {
-        align-items:center;
-      }
-    .aboutme-section-row1-first-text > h4 {
-        font-size: 20px;
-      }
-    .aboutme-section-row1-first-text p {
-        font-size: 12px;
-      }
-    .aboutme-section-row1-second {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        display:grid;
-      }
-    .aboutme-section-row1-second h4 {
-        font-size: 20px;
-      }
-    .aboutme-section-row1-second p {
-        font-size: 12px;
-      }
-    .aboutme-row-2 {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        display: grid;
-        }
-    .aboutme-section-row3 {
-        text-align: justify;
-        padding: 10px 30px;
-        height: auto;
-        }
-    .aboutme-section-row3 > h4{
-        font-family: "Unbounded", sans-serif;
-        color: black;
-        padding-bottom: 10px;
-        font-size: 20px;
-        font-weight: 400;
-        }
-    .aboutme-section-row3>p{
-        font-size: 12px; 
-    }
-    .aboutme-section-row2 {
-        grid-template-columns: 1fr;
-    }
-    .aboutme-section-row2 h4 {
-        font-size: 20px;
-    }
-    .aboutme-section-row2 p {
-        font-size: 12px;
-    }
-    .aboutme-section-row2-text p {
-        color: rgb(223, 232, 219);
-       
-    }
-    } 
-    
-    
