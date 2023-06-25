@@ -33,16 +33,14 @@ export default function Projects() {
     },
   ];
 
-  const [number, setNumber] = useState(0);
+
 
   return (
-    <div className="project">
-      <h1>Projects</h1>
-      <h3>{number}</h3>
-      <button onClick={() => { 
-        setNumber(number + 1);
-      }}>Add</button>
-      <div className="cards">
+    <div className="">
+      <h1 className="text-5xl font-sans mt-[75px]">Projects</h1>
+ 
+     
+      <div className="grid grid-cols-2 gap-4 mt-10">
         {data.map((item, index) => (
          <Card {...item} key={index} />
         ))}

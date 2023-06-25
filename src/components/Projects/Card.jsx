@@ -2,13 +2,14 @@ import React from 'react'
 
 function Card({ title, desc, img, link}) {
   return (
-    <div className="card" >
-      <img src={img} alt="pic1" />
-      <div className="card__details">
-        <div className="name">{title}</div>
+    <div className="grid grid-cols-2 gap-4" >
+      <img src={img} alt="" className='h-full object-cover rounded-lg'/>
+      <div className="flex flex-col justify-center">
+        <div className="">{title}</div>
         <p>{desc}</p>
 
-        <button>Read more</button>
+        <button className='bg-zinc-900 text-white py-2'>Read more</button>
+
       </div>
     </div>
   );
