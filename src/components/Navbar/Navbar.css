@@ -10,17 +10,14 @@
   top:0;
   z-index: 10;
 }
-
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-
 .navbar h3 {
   color: #131313;
-
   font-size: 22px;
 }
 .navbar-menu {

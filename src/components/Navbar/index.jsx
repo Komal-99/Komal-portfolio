@@ -1,17 +1,17 @@
 import React from "react";
-import "./Navbar.css";
+
 import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="navbar" id="nav">
+    <div className="bg-zinc-200 py-4 fixed top-0 w-screen" id="">
   
-        <div className="navbar-container">
+        <div className="container flex justify-between items-center">
           <Link to="/">
-            <h3>Komal.</h3>
+            <h3 className="font-sans text-lg">Komal.</h3>
           </Link>
 
-          <ul className="navbar-menu">
+          <ul className="md:flex gap-10 hidden md:black">
             <li>
               <a href="#about-us">About us</a>
             </li>

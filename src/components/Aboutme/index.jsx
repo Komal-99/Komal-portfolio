@@ -1,15 +1,15 @@
 
 export default function AboutMe() {
   return (
-    <div className="">
+    <div className="container">
       <div className="text-center">
         <h1 className="text-5xl font-sans">Storyline</h1>
         <h4 className="tracking-[4px] text-xl mt-2 text-orange-600">
           Interesting stuff about me
         </h4>
       </div>
-      <div className="mt-16 grid grid-cols-7 gap-5 mb-5  min-h-[320px]">
-        <div className="col-span-3 rounded-2xl px-8 py-2 flex flex-col justify-end bg-blue-500">
+      <div className="mt-16 grid md:grid-cols-7 gap-5 mb-5  min-h-[320px]">
+        <div className="md:col-span-3 rounded-2xl px-8 py-2 flex flex-col justify-end bg-blue-500">
           <h4 className="text-3xl font-sans text-white">Komal Gupta</h4>
           <p className="text-gray-200 text-xl mt-2 text-justify">
             Hello there! My name is Komal Gupta, and I am a passionate and
@@ -21,7 +21,7 @@ export default function AboutMe() {
             on a global scale.
           </p>
         </div>
-        <div className="col-span-4 rounded-2xl px-8 py-2 flex flex-col justify-end bg-orange-500">
+        <div className="md:col-span-4 rounded-2xl px-8 py-2 flex flex-col justify-end bg-orange-500">
           <h4 className="text-3xl font-sans text-white">Participatory</h4>
           <p className="text-gray-200 text-xl mt-2">
             Apart from my technical pursuits, I am actively engaged in sharing
@@ -35,8 +35,8 @@ export default function AboutMe() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-7 gap-5 mb-5 min-h-[320px]">
-        <div className="col-span-4 rounded-2xl px-8 py-2 flex flex-col justify-end bg-yellow-600 ">
+      <div className="grid md:grid-cols-7 gap-5 mb-5 min-h-[320px]">
+        <div className="md:col-span-4 rounded-2xl px-8 py-2 flex flex-col justify-end bg-yellow-600 ">
           <h4 className="text-3xl font-sans text-white ">Summary</h4>
           <p className="text-gray-200 text-xl mt-2 ">
             In summary, I am a passionate and hardworking individual with a
@@ -51,7 +51,7 @@ export default function AboutMe() {
             exciting world of AI and technology.
           </p>
         </div>
-        <div className="col-span-3 rounded-2xl px-8 py-2 flex flex-col justify-end bg-purple-700">
+        <div className="md:col-span-3 rounded-2xl px-8 py-2 flex flex-col justify-end bg-purple-700">
           <h4 className="text-3xl font-sans text-white">Current focus</h4>
           <p className="text-gray-200 text-xl mt-2 ">
             In my journey through the world of technology, I am currently
